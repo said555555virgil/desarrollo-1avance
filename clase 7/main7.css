@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    color: black;
+}
+.text{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px salmon;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    animation:fadeInAnimation 1s ease-in-out forwards ;
+}
+body{
+    background-color: rgb(165, 96, 230);
+    background: -webkit-linear-gradient(to right, rgb(228, 176, 208), pink);
+    background: linear-gradient(to right, rgb(228, 176, 208), pink);;
+}
+@keyframes fadeInAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.text:hover{
+    color: aqua;
+}

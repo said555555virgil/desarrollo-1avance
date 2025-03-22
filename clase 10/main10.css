@@ -1,0 +1,18 @@
+@media screen and (max-width:559px){
+    body{
+        background-color: blue;
+    }
+}
+@media screen and (max-width:600px) and (max-width:900px){
+    .text{
+        font-size: 5%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+@media screen and (min-width:1200px){
+    body{
+        img{
+            display: none;
+        }
+    }
+}
