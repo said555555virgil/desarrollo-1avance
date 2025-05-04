@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+
+    display: flex;
+ 
+    background-color: #fdfafa;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px ;
+    background-color: #09fcfc;
+    color: rgb(31, 7, 241);
+    width: 100%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: end;
+    margin-left: auto;
+    font-size: 2rem;
+}
+.navbar ul li{
+    margin-right: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(255, 136, 1);
+}
+.image-nav{
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f80909;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+}
+.texto{
+    font-size: 2rem;
+    margin: 20px;
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgb(245, 240, 240);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(116, 114, 114, 0.2);
+  }
+.image-card{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24176e;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.body{
+    background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f3f2f0, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eceae8, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
